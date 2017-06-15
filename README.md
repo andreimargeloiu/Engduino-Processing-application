@@ -3,7 +3,7 @@
 ### **DESCRIPTION:** The Engduino application takes data through the sensors and shows it in real time using Processing IDE. The program consists of 3 applications which change when the button is pressed.
 
 **• Temperature sensor app:** Display temperatures between (0 - 40) degrees Celsius in Processing IDE. On Engduino, for each 0.2 degree difference in temperature compared to the initial one, one more light is turned on. The lights are RED for increased temperature and BLUE for decreased temperature.
-![App picture](https://github.com/margiki/Engduino-Processing-application/blob/master/Screenshots/Temperature.jpg){:height="50%" width="50%"}
+![test image size](/Screenshots/Temperature.jpg){:height="50%" width="50%"}
 
 
 **• Light sensor app:** Displays light intensity between (0 – 1200) lux in Processing IDE. On Engduino the lights are turned on in L shape.
