@@ -3,15 +3,15 @@
 ### **DESCRIPTION:** The Engduino application takes data through the sensors and shows it in real time using Processing IDE. The program consists of 3 applications which change when the button is pressed.
 
 **• Temperature sensor app:** Display temperatures between (0 - 40) degrees Celsius in Processing IDE. On Engduino, for each 0.2 degree difference in temperature compared to the initial one, one more light is turned on. The lights are RED for increased temperature and BLUE for decreased temperature.
-![test image size](/Screenshots/Temperature.jpg){:height="50%" width="50%"}
+![test image size](/Screenshots/Temperature.jpg)
 
 
 **• Light sensor app:** Displays light intensity between (0 – 1200) lux in Processing IDE. On Engduino the lights are turned on in L shape.
-![App picture](https://github.com/margiki/Engduino-Processing-application/blob/master/Screenshots/Light%20Intensity.jpg)
+![App picture](Screenshots/Light%20Intensity.jpg)
 
 
 **• Acceleration sensor app:** Displays acceleration between (-1 – 1) in Processing IDE. On Engduino the lights are turned on in C shape.
-![App picture](https://github.com/margiki/Engduino-Processing-application/blob/master/Screenshots/Acceleration.jpg)
+![App picture](/Screenshots/Acceleration.jpg)
 
 
 **The data is transferred through the serial port of a Laptop/PC. Processing IDE is connected to the same serial port to receive information.** Engduino transmits a marker for each application ('OFF ", "temp ", "light ", "acc "), so that Processing IDE knows when to change between applications. Switching between the three types of applications in Processing IDE depending on the first string received. Processing application interprets the markers and change the graph accordingly.
@@ -30,6 +30,11 @@
 # 2. OpenSCAD app
 
 **DESCRIPTION:** This OpenSCAD represents a Christmas tree that can be used as an Engduino stand. There are 4 different layers that combined will result in a Christmas tree. Each layer has a docking hole at the bottom and a cylinder at the top to combine with the other layers. The head layer has a Engduino docking hole, so you can fit your Engduino with the USB. The bottom layer also has the bottom docking hole, in case you would want to print more layers in the future and add them
+
+![App picture](Screenshots/openscad1.jpg)
+![App picture](Screenshots/openscad2.jpg)
+![App picture](Screenshots/openscad3.jpg)
+![App picture](Screenshots/openscad4.jpg)
 
 **PRINTING INSTRUCTIONS:** All 4 layers should be printed separately in order to combine them finally. There is a demo with the tree assembled in the middle, to see how it looks assembled. When printing the tree, just comment the function makeDemo() to hide the demo tree.
 
