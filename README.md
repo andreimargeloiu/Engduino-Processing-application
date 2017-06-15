@@ -3,10 +3,16 @@
 ### **DESCRIPTION:** The Engduino application takes data through the sensors and shows it in real time using Processing IDE. The program consists of 3 applications which change when the button is pressed.
 
 **• Temperature sensor app:** Display temperatures between (0 - 40) degrees Celsius in Processing IDE. On Engduino, for each 0.2 degree difference in temperature compared to the initial one, one more light is turned on. The lights are RED for increased temperature and BLUE for decreased temperature.
+![App picture](https://github.com/margiki/Engduino-Processing-application/blob/master/Screenshots/Temperature.jpg)
+
 
 **• Light sensor app:** Displays light intensity between (0 – 1200) lux in Processing IDE. On Engduino the lights are turned on in L shape.
+![App picture](https://github.com/margiki/Engduino-Processing-application/blob/master/Screenshots/Light%20Intensity.jpg)
 
-**• Acceleration sensor app:** Displays acceleration between (-1 – 1) in Processing IDE. On Engduino the lights are turned on in C shape. 
+
+**• Acceleration sensor app:** Displays acceleration between (-1 – 1) in Processing IDE. On Engduino the lights are turned on in C shape.
+![App picture](https://github.com/margiki/Engduino-Processing-application/blob/master/Screenshots/Acceleration.jpg)
+
 
 **The data is transferred through the serial port of a Laptop/PC. Processing IDE is connected to the same serial port to receive information.** Engduino transmits a marker for each application ('OFF ", "temp ", "light ", "acc "), so that Processing IDE knows when to change between applications. Switching between the three types of applications in Processing IDE depending on the first string received. Processing application interprets the markers and change the graph accordingly.
 
